@@ -5,11 +5,17 @@ color: black;
 background-color: white;
 }
 
+html, body , .mi-container{
+	padding: 0%;
+	margin: 0%;	
+}
+
 .medio{
 	display: flex !important;
 	text-align: center !important;
 	justify-content: center !important;
-	
+	background-color: black;
+	width: 100%;
 }
 
 .padding{
@@ -19,6 +25,14 @@ background-color: white;
 .imgcss{
 	height: 300px !important;	
 	width: 1000px !important;
+}
+
+/*redes sociales*/
+.mi-redes{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 10px;
 }
 /*
 .tituloPrincipal
